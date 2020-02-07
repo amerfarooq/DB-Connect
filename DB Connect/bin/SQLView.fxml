@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="680.0" prefWidth="970.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TextArea fx:id="query" layoutX="40.0" layoutY="61.0" prefHeight="180.0" prefWidth="890.0" />
+      <JFXButton fx:id="executeBtn" buttonType="RAISED" layoutX="834.0" layoutY="254.0" onAction="#executeBtnClicked" ripplerFill="#2a2e37" style="-fx-background-color: #2A2E37;" text="Execute" textFill="WHITE">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </JFXButton>
+      <TableView fx:id="resultView" layoutX="40.0" layoutY="317.0" prefHeight="333.0" prefWidth="890.0" />
+      <Text layoutX="40.0" layoutY="43.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Write your SQL query:">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <Text layoutX="40.0" layoutY="298.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Results:">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

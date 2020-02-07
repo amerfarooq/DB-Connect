@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXCheckBox?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="681.0" prefWidth="997.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TableView fx:id="tableView" layoutX="-12.0" layoutY="30.0" prefHeight="651.0" prefWidth="995.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="30.0" />
+      <JFXCheckBox fx:id="editableChkBox" checkedColor="#dfdf00" layoutX="888.0" layoutY="4.0" onAction="#checkBoxSelected" text="Editable" />
+      <Text fx:id="connText" layoutX="46.0" layoutY="20.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+      <ImageView fitHeight="20.0" fitWidth="21.0" layoutX="14.0" layoutY="5.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../customisation/connection-established-integration-icon-6.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="refresh" fitHeight="20.0" fitWidth="21.0" layoutX="847.0" layoutY="5.0" onMouseClicked="#refreshClicked" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../customisation/iconfinder_refresh-01_186390.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
